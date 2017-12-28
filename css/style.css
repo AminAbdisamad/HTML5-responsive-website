@@ -16,7 +16,7 @@ body{
   overflow: hidden;
 }
 button{
-  height: 38px;
+  height:38px;
   width:130px;
   background: chocolate;
   border:0;
@@ -37,6 +37,7 @@ header {
   padding-top: 16px;
   height: 18px;
   min-height: 70px;
+  border-bottom: 2px solid chocolate;
 
   /*border-bottom: chocolate 2px solid;*/
 }
@@ -168,18 +169,11 @@ width: 250px;
   margin-left: 30px;
   margin-bottom: 40px;
   text-align: center;
+  box-sizing: border-box;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.03), 4px 4px 4px 4px rgba(0, 0, 0, 0.02);
 }
 #boxes .box:hover {
-  float:left;
-  width:40%;
-  padding:10px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  text-align: center;
   background-color: darkslategray;
-  overflow: hidden;
-  transition: .5s ease;
 }
 #boxes .box:hover h3 {
   color:white;
@@ -210,7 +204,7 @@ width: 250px;
 }
 */
 #boxes p{
-  margin-bottom: :20px;
+  margin-bottom:20px;
   padding:0px;
   color:darkslategray;
   text-align: center;
@@ -235,7 +229,7 @@ width: 250px;
 }
 
 #boxes p .shorttitle{
-  border: 10px solid:chocolate;
+  border: 10px chocolate solid;
 }
 /* Article Main */
 article#main-col{
